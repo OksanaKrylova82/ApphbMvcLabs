@@ -15,6 +15,8 @@ namespace ApphbMvcLabs
                     "~/Content/bootstrap.css",
                     "~/Content/bootstrap-theme.css",
 
+                    "~/Content/font-awesome.css",
+
                     "~/Content/Site.less"
                 });
 
