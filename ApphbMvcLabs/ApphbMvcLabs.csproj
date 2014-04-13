@@ -50,8 +50,20 @@
     <Reference Include="Cassette.Aspnet">
       <HintPath>..\packages\Cassette.Aspnet.2.4.1\lib\net40\Cassette.Aspnet.dll</HintPath>
     </Reference>
+    <Reference Include="Cassette.CoffeeScript">
+      <HintPath>..\packages\Cassette.CoffeeScript.2.4.1\lib\net40-client\Cassette.CoffeeScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Cassette.Less">
+      <HintPath>..\packages\Cassette.Less.2.4.1\lib\net40-client\Cassette.Less.dll</HintPath>
+    </Reference>
     <Reference Include="Cassette.Views">
       <HintPath>..\packages\Cassette.Views.2.4.1\lib\net40\Cassette.Views.dll</HintPath>
+    </Reference>
+    <Reference Include="dotless.ClientOnly">
+      <HintPath>..\packages\DotlessClientOnly.1.4.0.0\lib\dotless.ClientOnly.dll</HintPath>
+    </Reference>
+    <Reference Include="Jurassic">
+      <HintPath>..\packages\Jurassic.2.1.1\lib\Jurassic.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure">
@@ -100,8 +112,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Site.less" />
+    <Content Include="Scripts\Common\Site.coffee" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
