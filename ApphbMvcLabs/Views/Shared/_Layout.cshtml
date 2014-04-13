@@ -1,0 +1,19 @@
+﻿@{
+    Bundles.Reference("~/Content");
+    Bundles.Reference("~/Scripts");
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ApphbMvcLabs</title>    
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        @Bundles.RenderStylesheets()
+    </head>
+<body>
+    @RenderBody()
+    @Bundles.RenderScripts()
+    @RenderSection("Scripts", false)
+</body>
+</html>

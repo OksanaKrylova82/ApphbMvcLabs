@@ -10,7 +10,7 @@ namespace ApphbMvcLabs.Controllers
     {
         public ActionResult Index()
         {
-            return Content("Home/Index");
+            return View();
         }
 	}
 }
