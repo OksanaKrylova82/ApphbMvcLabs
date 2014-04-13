@@ -14,7 +14,7 @@ namespace ApphbMvcLabs
                 "~/Scripts",
                 new[]
                 {
-                    "~/Scripts/jquery-1.10.2.js",
+                    "~/Scripts/jquery-2.1.0.js",
                     "~/Scripts/jquery.validate.js",
                     "~/Scripts/jquery.validate.unobtrusive.js"
                 });
