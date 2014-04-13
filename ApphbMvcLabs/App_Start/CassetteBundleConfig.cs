@@ -12,6 +12,9 @@ namespace ApphbMvcLabs
                 "~/Content",
                 new[]
                 {
+                    "~/Content/bootstrap.css",
+                    "~/Content/bootstrap-theme.css",
+
                     "~/Content/Site.less"
                 });
 
@@ -22,6 +25,8 @@ namespace ApphbMvcLabs
                     "~/Scripts/jquery-2.1.0.js",
                     "~/Scripts/jquery.validate.js",
                     "~/Scripts/jquery.validate.unobtrusive.js",
+
+                    "~/Scripts/bootstrap.js",
 
                     "~/Scripts/Common/Site.coffee"
                 });
