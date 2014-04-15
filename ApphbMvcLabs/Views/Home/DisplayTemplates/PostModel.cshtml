@@ -1,0 +1,8 @@
+﻿@model ApphbMvcLabs.Models.Home.PostModel
+
+<div class="blog-post">
+    <h2 class="blog-post-title">@Html.DisplayFor(x => x.Title)</h2>
+    <p class="blog-post-meta">@Html.DisplayFor(x => x.DateTime) by <a href="#">@Html.DisplayFor(x => x.UserEmail)</a></p>
+
+    @Html.DisplayFor(x => x.Content)    
+</div>

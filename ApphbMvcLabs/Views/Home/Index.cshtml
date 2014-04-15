@@ -1,7 +1,11 @@
-﻿<h1>Lorem ipsum dolor sit amet</h1>
+﻿@model List<ApphbMvcLabs.Models.Home.PostModel>
 
-<p>Aliquam erat volutpat. Vestibulum eleifend turpis quam, dictum lacinia elit tincidunt eget. Etiam in malesuada ligula. Sed a erat at turpis blandit tincidunt at id sem. Vestibulum ut purus ac enim convallis accumsan. Curabitur venenatis semper ante, id bibendum urna. Praesent vel magna vitae metus convallis feugiat vitae nec eros. Quisque placerat dapibus orci vel volutpat.</p>
+@foreach (var post in Model)
+{
+    @Html.DisplayFor(x => post)
+}
 
-<div>
-    <i class="fa fa-camera-retro fa-5x"></i>
-</div>
+<ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+</ul>

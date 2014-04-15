@@ -1,3 +1,5 @@
+using System.Data.Entity.ModelConfiguration.Conventions;
+
 namespace ApphbMvcLabs.Migrations
 {
     using System;
@@ -9,8 +11,8 @@ namespace ApphbMvcLabs.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-        }
+            AutomaticMigrationsEnabled = true;            
+        }        
 
         protected override void Seed(ApphbMvcLabs.Data.DataContext context)
         {
